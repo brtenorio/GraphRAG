@@ -5,6 +5,7 @@ import argparse
 import ast
 import re 
 import logging
+import sys
 
 from langchain_community.graphs import Neo4jGraph
 from neo4j import GraphDatabase
@@ -18,7 +19,9 @@ from langchain.prompts import PromptTemplate
 from langchain.chat_models import init_chat_model
 from typing import List, Dict, Any
 
-from src.types import RELATION_TYPES, RelationType
+sys.path.append("/Users/brncat/Downloads/NLP_practice/GraphRAG")
+from relation_types import RELATION_TYPES, RelationType
+
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -190,24 +193,21 @@ def main(question: str, match_statment: str = None, k: int = 30, save_json: bool
     """
 
     #llm = ChatOpenAI(temperature=0, model_name="gpt-4o-mini")
-    llm = init_chat_model(model="claude-3-5-haiku-20241022", model_provider="anthropic", max_tokens=1024, temperature=0)
-    #llm = ChatOllama(model="deepseek-r1:7b", temperature=0)
+    #llm = init_chat_model(model="claude-3-5-haiku-20241022", model_provider="anthropic", max_tokens=1024, temperature=0)
+    llm = ChatOllama(model="deepseek-r1:7b", temperature=0)
 
     driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD), database=NEO4J_DATABASE)
     embedding_model = HuggingFaceEmbeddings(model_name="all-mpnet-base-v2")
 
     # Infer relationship types from the first question
-    if question:
+    if not match_statment:
         inferred_relations = infer_relationship_types(question, RELATION_TYPES, llm)
         print("Inferred relations: ", inferred_relations)
         if inferred_relations:
             match_statment = ":" + "|".join(inferred_relations)
         else:
-            match_statment = "" 
-    else:
-        match_statment = match_statment
+            match_statment = ""
 
-    #print("Inferred relations: ", _match_statment)
     
     cypher_query = f"""
         // Step 1: Get entities with degree >= 2 
@@ -235,11 +235,12 @@ def main(question: str, match_statment: str = None, k: int = 30, save_json: bool
 
     dump_json = []
     result = qa_chat.ask(question, k)
+    result["extracted relationships"] = match_statment
     dump_json.append(result)
     print(result['answer'])
     print(f"Sources used: {len(result['sources'])}")
-        
-        # Print sources for transparency
+
+    # Print sources for transparency
     for i, source in enumerate(result['sources'][:3]):  # Show top 3 sources
         print(f"  Source {i+1}: {source['name']} (score: {source['score']:.3f}, frequency: {source['frequency']})")
     
