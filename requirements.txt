@@ -1,0 +1,8 @@
+langchain
+neo4j
+langchain-huggingface
+python-dotenv
+langchain-openai
+langchain-community
+langchain_ollama
+dotenv
