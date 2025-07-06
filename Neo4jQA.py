@@ -151,14 +151,16 @@ class Neo4jQAChat:
             ]
         }
 
-
-def infer_relationship_types(question: str, available_relation_types: List[RelationType], llm) -> List[str]:
+class RelationshipTypes:
     """
     Infers the relationship types from the question using an LLM.
     """
-    relation_type_list = "\n".join([f"- {rt.predicate}: {rt.description}" for rt in available_relation_types])
+    def __init__(self, available_relation_types: List[RelationType], llm):
+        self.llm = llm
+        self.relation_types_list = "\n".join([f"- {rt.predicate}: {rt.description}" for rt in available_relation_types])
 
-    prompt_template = PromptTemplate(
+    def __call__(self, question: str):
+        prompt_template = PromptTemplate(
         input_variables=["question", "relation_types"],
         template="""
         You are an expert Cypher query generator assistant.
@@ -177,12 +179,13 @@ def infer_relationship_types(question: str, available_relation_types: List[Relat
 
         Answer:
         """
-    )
+        )
 
-    prompt = prompt_template.format(question=question, relation_types=relation_type_list)
-    result = llm.invoke(prompt)
-    result = output_parser(result.content, llm)
-    return result
+        prompt = prompt_template.format(question=question, relation_types=self.relation_types_list)
+        result = self.llm.invoke(prompt)
+        result = output_parser(result.content, self.llm)
+        
+        return result
 
 
 def main(question: str, match_statment: str = None, k: int = 30, save_json: bool = False):
@@ -201,7 +204,8 @@ def main(question: str, match_statment: str = None, k: int = 30, save_json: bool
 
     # Infer relationship types from the first question
     if not match_statment:
-        inferred_relations = infer_relationship_types(question, RELATION_TYPES, llm)
+        infer_relationship_types = RelationshipTypes(RELATION_TYPES, llm)
+        inferred_relations = infer_relationship_types(question)
         print("Inferred relations: ", inferred_relations)
         if inferred_relations:
             match_statment = ":" + "|".join(inferred_relations)
