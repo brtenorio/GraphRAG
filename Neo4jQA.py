@@ -20,7 +20,7 @@ from langchain.chat_models import init_chat_model
 from typing import List, Dict, Any
 
 sys.path.append("/Users/brncat/Downloads/NLP_practice/GraphRAG")
-from relation_types import RELATION_TYPES, RelationType
+from relation_types import RELATION_TYPES, ENTITY_TYPES, RelationType, EntityType
 
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -151,41 +151,79 @@ class Neo4jQAChat:
             ]
         }
 
+
 class RelationshipTypes:
     """
-    Infers the relationship types from the question using an LLM.
+    Uses an LLM to infer relevant relationship and entity types from a user's question.
     """
-    def __init__(self, available_relation_types: List[RelationType], llm):
-        self.llm = llm
-        self.relation_types_list = "\n".join([f"- {rt.predicate}: {rt.description}" for rt in available_relation_types])
 
-    def __call__(self, question: str):
-        prompt_template = PromptTemplate(
-        input_variables=["question", "relation_types"],
-        template="""
-        You are an expert Cypher query generator assistant.
-        Your task is to identify the relevant relationship types from a predefined list to answer a user's question about their personal data.
+    def __init__(
+        self,
+        question: str,
+        available_relation_types: List[RelationType],
+        available_entity_types: List[EntityType],
+        llm,
+    ):
+        """
+        Args:
+            question: The user's question.
+            available_relation_types: List of possible relationship types.
+            available_entity_types: List of possible entity types.
+            llm: The language model to use for inference.
+        """
+        self.llm = llm
+        self.question = question
+        self.logger = logging.getLogger(__name__)
+        self.relation_types = self._extract_types(available_relation_types, "relationship")
+        self.entity_types = self._extract_types(available_entity_types, "entity")
+
+    def _create_prompt(self, available_types: List[str], type_category: str) -> str:
+        """
+        Create a prompt for the LLM to extract relevant types.
+        """
+        template = """You are an expert Cypher query generator assistant.
+        Your task is to identify the relevant {type_category} types from a predefined list to answer a user's question about their personal data.
         The user's question is: "{question}"
 
-        Here is the list of available relationship types:
-        {relation_types}
+        Here is the list of available {type_category} types:
+        {available_types}
 
-        Based on the user's question, which of these relationship types are most relevant to constructing a Cypher query to find the answer?
-        
+        Based on the user's question, which of these {type_category} types are most relevant to constructing a Cypher query to find the answer?
+
         Format instructions:
         - Return your answer in the format List[str].
         - Do not return any additional text or thinking steps.
-        - Output Example: ["item", "item", "item"]
+        - Format Output Example: ["item", "item", "item"]
 
-        Answer:
-        """
+        Answer:"""
+
+        return template.format(
+            question=self.question,
+            available_types=available_types,
+            type_category=type_category,
         )
 
-        prompt = prompt_template.format(question=question, relation_types=self.relation_types_list)
-        result = self.llm.invoke(prompt)
-        result = output_parser(result.content, self.llm)
-        
-        return result
+    def _extract_types(self, available_types: List[str], type_category: str) -> List[str]:
+        """
+        Use the LLM to extract relevant types from the question.
+        """
+        if not self.question:
+            self.logger.warning("Empty question provided.")
+            return []
+        try:
+            prompt = self._create_prompt(available_types, type_category)
+            result = self.llm.invoke(prompt)
+            formatted_result = output_parser(result.content, self.llm)
+            if not isinstance(formatted_result, list):
+                self.logger.warning(f"Unexpected LLM output: {formatted_result}")
+                return []
+            # Remove "USER" if present
+            if "USER" in formatted_result: formatted_result.remove("USER")
+            return formatted_result
+        except Exception as e:
+            self.logger.error(f"Error extracting {type_category} types: {e}")
+            return []
+
 
 
 def main(question: str, match_statment: str = None, k: int = 30, save_json: bool = False):
@@ -202,15 +240,18 @@ def main(question: str, match_statment: str = None, k: int = 30, save_json: bool
     driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USERNAME, NEO4J_PASSWORD), database=NEO4J_DATABASE)
     embedding_model = HuggingFaceEmbeddings(model_name="all-mpnet-base-v2")
 
-    # Infer relationship types from the first question
+    # Infer relationship and entity types from the question if no match_statement is provided
     if not match_statment:
-        infer_relationship_types = RelationshipTypes(RELATION_TYPES, llm)
-        inferred_relations = infer_relationship_types(question)
-        print("Inferred relations: ", inferred_relations)
-        if inferred_relations:
-            match_statment = ":" + "|".join(inferred_relations)
-        else:
-            match_statment = ""
+        type_inferer = RelationshipTypes(question, RELATION_TYPES, ENTITY_TYPES, llm)
+        inferred_relations = type_inferer.relation_types
+        inferred_entities = type_inferer.entity_types
+
+        print("Inferred relations:", inferred_relations)
+        print("Inferred entities:", inferred_entities)
+
+        # Build Cypher match patterns based on inferred types
+        match_relation = f":{'|'.join(inferred_relations)}" if inferred_relations else ""
+        match_entity = f":{'|'.join(inferred_entities)}" if inferred_entities else ""
 
     
     cypher_query = f"""
@@ -221,14 +262,14 @@ def main(question: str, match_statment: str = None, k: int = 30, save_json: bool
         WITH collect(e) AS well_connected_entities
 
         // Step 2: Use only well-connected entities in main query
-        MATCH (:USER)-[r{match_statment}]->(e)
+        MATCH (:USER)-[r{match_relation}]->(e{match_entity})
         WHERE e IN well_connected_entities
 
-        WITH type(r) AS relation_type, r.frequency as frequency, labels(e) AS entity_type, collect(e) AS matchedNodes, $queryEmbedding AS queryEmbedding
+        WITH type(r) AS relation_type, e.frequency as frequency, labels(e) AS entity_type, collect(e) AS matchedNodes, $queryEmbedding AS queryEmbedding
         ORDER BY frequency DESC
               CALL db.index.vector.queryNodes('entity_embedding', 1000, queryEmbedding)
               YIELD node AS matchedNode, score
-        WHERE matchedNode IN matchedNodes AND score > 0.65
+        WHERE matchedNode IN matchedNodes AND score > 0.68
         RETURN matchedNode.name AS name, score, 
                matchedNode.extraction_result_summary AS summary, matchedNode.document_id AS document_id, frequency, relation_type, entity_type
         ORDER BY frequency * score DESC 

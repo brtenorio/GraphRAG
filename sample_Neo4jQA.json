@@ -2,305 +2,16 @@
     {
         "question": "who are the user's friends?",
         "answer": [
-            "Ana",
-            "Laura",
-            "Lucía",
-            "Raquel",
-            "Pablo",
-            "Marisa",
-            "Matías"
+            "Francisca Sánchez",
+            "Benjamín",
+            "Isidora Célina Marcela",
+            "Cindy Eutropio"
         ],
         "sources": [
             {
-                "name": "Crystal",
-                "score": 0.7149877548217773,
-                "frequency": 5,
-                "document_id": [
-                    "part-00091-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-10T10:16:39Z",
-                    "part-00135-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-17T10:42:42Z",
-                    "part-00029-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-28T21:20:55Z",
-                    "part-00115-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-20T11:24:20Z",
-                    "part-00007-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-02-01T22:47:40Z",
-                    "part-00028-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-01-30T12:01:37Z",
-                    "part-00191-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-05-02T08:45:45Z",
-                    "part-00121-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-10T10:03:30Z",
-                    "part-00120-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-01-27T21:22:38Z",
-                    "63F2F9DC-BB0C-477B-BB6E-6A42CAC86704",
-                    "Crystal + +34655468142 + +34655468142",
-                    "Crystal + +34695945522 + +34695945522",
-                    "Crystal + +5492236334851 + +5492236334851",
-                    "Crystal + +34652500632 + +34652500632",
-                    "Crystal + +34658912089 + +34658912089",
-                    "Crystal + +34669097875 + +34669097875",
-                    "Crystal + +34651590824 + +34651590824",
-                    "Crystal + +34601073317 + +34601073317",
-                    "Crystal + +34646225581 + +34646225581",
-                    "9BADA819-96B5-4BE2-BA60-7BBAE404AA3F",
-                    "07612FD6-5C19-5B53-B5AA-34D529A04865",
-                    "39ED57C1-5022-458D-9ABB-903EF4E115CE",
-                    "C197BBAD-93B6-4FD5-9B26-8D4269E13E59",
-                    "A69F99A2-AFAE-092D-8237-3B06FF779480",
-                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565"
-                ],
-                "summary": "This is an SMS message sent to the user's phone number +34678051087 on 2024-12-12 at 14:30:48 UTC, indicating the user owns this Spanish mobile number. The message contains a list of names: Pepito, Virgilio, Sarah, Norberto, Gianmarco, Eusebia, Jenaro, Crystal, Jerome, and Victor Manuel, suggesting potential personal or professional connections in the user's network. The repeated mention of 'Pepito' and 'Gianmarco' may indicate closer relationships or frequent interactions with these individuals. The message's lack of contextual phrases implies it could be a contact list exchange, group chat participant list, or coded reference to social connections. The chat ID '17' suggests this belongs to an organized thread or conversation group in the user's messaging history. The future timestamp (December 2024) might indicate either a device clock anomaly or a scheduled message."
-            },
-            {
-                "name": "+34699323960",
-                "score": 0.6835939884185791,
-                "frequency": 5,
-                "document_id": [
-                    "Rolando Bernard + +34699323960 + +34699323960",
-                    "Rolando Bernard + +34699323960 + +34699323960",
-                    "Rolando Bernard + +34699323960 + +34699323960",
-                    "AB4B0CA2-9DD8-430D-B716-E8B37EAD6ABD",
-                    "C45E1B55-89C5-4255-A8F0-4E1E58065812",
-                    "249B7BF1-086E-4B08-A60B-3D24F98E3BCB",
-                    "B1A61293-C0E4-4EBD-A4C4-D1D1B1870AFC",
-                    "CCF42934-12D2-4C1E-94E6-83E22EC8456A",
-                    "B6AFDEC2-9CC4-28F6-A6BC-0A7F1BAB4B39",
-                    "C9B7A04F-B07E-BE55-778B-BB156AC01CC4",
-                    "4B446759-8D92-E92D-66B5-20CEE8BD2209",
-                    "5991CF03-5EC7-4F21-A3E8-8BB5C03286C8",
-                    "60E41514-6CFD-80E4-6A60-9611178698A1",
-                    "C927AFF8-5198-E7EF-1B98-05AA5D206627",
-                    "B91E32BD-9F58-6938-48AD-B022B9583FE1",
-                    "57523B7F-EE25-47B9-AD87-D7C71D6E5F0C",
-                    "31D6FDAC-5101-430F-A6BE-1D47262B1000",
-                    "118D06F6-71FA-4CF1-8F9E-530783475984",
-                    "3674A29F-AAEF-4A62-80B4-886BDB5594A6",
-                    "7000F98E-6743-85A1-9400-F651FCBF7589",
-                    "2D4BE4E7-036C-40C0-B9C4-8723F23B52A5",
-                    "E8DAB0E2-FF97-4B76-AE6B-181A835E39A1",
-                    "AB6DF9DC-5073-45AA-BCDC-F560C118A439",
-                    "1A10719D-61FD-6538-D5B1-D9E89CF22240",
-                    "F8CCE5F2-6F21-48B6-8E8B-4C7C05C901E4",
-                    "13C180B3-B60F-4E56-813C-42C7FFD89C71",
-                    "7132208A-5EDB-4D83-9EB3-4BBEA27C8225",
-                    "00AB134F-9DA1-47E2-9F83-CE9C4CB91D42",
-                    "8663F680-2CC7-C08C-1347-342695D48070",
-                    "18B7B920-4D3D-475F-88B0-4E144CF3178D",
-                    "0C0E947A-17D1-42C2-B664-A338AF16663B",
-                    "DBD0AB5F-E2F8-411A-A26A-52041E5637E8",
-                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
-                    "A13EE2D9-C0DC-46C0-A2BD-EA348034B15D",
-                    "AF7FA7DD-3BD4-41F6-CF50-260BEB456BFF",
-                    "4DCDBC76-44DA-416B-B35B-568D70E2D37C",
-                    "92C5DA67-014A-DA50-2371-56AF722D5B0A",
-                    "C1D9B7A1-3862-4877-93A5-D8F5204C50D1",
-                    "295AAB41-CDB5-E197-F569-36534D14A4BF",
-                    "EF146FFF-2F54-46FB-8E71-CA7BE0B3B76E",
-                    "C197BBAD-93B6-4FD5-9B26-8D4269E13E59",
-                    "A69F99A2-AFAE-092D-8237-3B06FF779480",
-                    "5635339A-3C72-45F6-BAF8-84D7AFF061FC",
-                    "C75950EA-FF87-46D0-ADE7-B4EAC6D9E6DA",
-                    "B4D3D644-BB84-4D47-4A61-2824B295D127",
-                    "169FE9F4-6C38-C759-749C-A61B2170073E",
-                    "502F3535-9994-49F8-906C-8CC42F5CE45C",
-                    "C186D5D8-84A9-B2E5-D546-36C866C5CAFA",
-                    "61DC35C9-E316-4051-B849-FBC2620A7740",
-                    "EC792726-CB96-47E9-9CA3-76E51F2A2631",
-                    "83A6CBA7-5512-470D-9101-C5149C6D8E2C",
-                    "AC35FA3C-3FD4-9E65-FAF9-49ADBB8085D7",
-                    "6597E1BA-4D3C-28A5-1D7B-C8842DAAEB7F",
-                    "ED0786E3-7983-4AF8-97E1-2423F35E97A6",
-                    "CA5E49C9-FE50-4E6F-B8C8-8F02C374F4DD",
-                    "EC00B3A7-819D-41CD-8416-9D6D5811959F",
-                    "A834F917-6F3C-449F-925C-3E4300ABF0BA",
-                    "A2E37C5B-A048-4BA3-B2EC-E05FE9C272AB",
-                    "EDA067E0-33BA-5D5C-DF5C-2475447CD82A",
-                    "E3054CBE-4916-48A4-9275-FB9CA67E8251",
-                    "101890D2-7435-4CBA-8EB6-C05F238015BB",
-                    "3A6B4F77-B92A-4D5C-9EF5-E332687EA27C",
-                    "57F8D22E-7E6C-43EC-953D-D370A3F26E8C",
-                    "001D3648-CBF8-30AE-85DB-80F543CAAEF2",
-                    "7C910D1E-02EA-487E-B496-1B7D6ADB84ED",
-                    "A5DFCCFA-38A6-4C15-B19E-511408742C37",
-                    "878483D1-AEDE-4688-8F56-7B44B6E57A0B",
-                    "B487FF37-8511-4CA7-BC04-69B2AF2CCA31",
-                    "850459C6-19D2-59CC-D7BB-05D522182387",
-                    "4F1F674F-20DD-49C6-9563-1C00E95DBF63",
-                    "72EC1D61-79BF-249F-3BE4-3B5AF2561C49",
-                    "3F4403D6-6400-4CD1-8CF4-43177BE6A945",
-                    "2019B750-1D3D-4950-A68F-162815094583",
-                    "8EAB936D-F3EA-41F3-9862-A205C7FF22DA"
-                ],
-                "summary": "This is an SMS message (SearchItemMobileSmsDocument) sent to the user's phone number +34699323960 on 26 December 2024 at 22:17:28 UTC. The message body 'Walter el gorro de Gianmarco' (Spanish for 'Walter [took/is] Gianmarco's hat') suggests a personal interaction or event involving two individuals named Walter and Gianmarco, potentially indicating a social relationship or shared activity between them. The Spanish-language content implies the user may have Spanish-speaking connections or cultural context. The SMS metadata confirms the user's ownership of the +34699323960 mobile number and documents communication occurring through text messaging channels."
-            },
-            {
-                "name": "María Ángeles",
-                "score": 0.6944351196289062,
-                "frequency": 4,
-                "document_id": [
-                    "4B446759-8D92-E92D-66B5-20CEE8BD2209",
-                    "60E41514-6CFD-80E4-6A60-9611178698A1",
-                    "0C0E947A-17D1-42C2-B664-A338AF16663B",
-                    "432F52C7-1385-44C6-8CCE-B182F0D4CDCF"
-                ],
-                "summary": "This is an SMS message sent to the user's phone number (+34638734683) on 26 December 2024 at 12:28:41 UTC. The message, written in Spanish, states 'El domingo María Ángeles no puede XD' ('On Sunday, María Ángeles can't make it XD'), with 'XD' suggesting a casual or humorous tone. The reference to Sunday implies a planned event or commitment involving María Ángeles, who is likely a social contact of the user. The message's metadata includes a unique ID (432F52C7-1385-44C6-8CCE-B182F0D4CDCF) and chat thread ID (22), indicating it is part of a broader conversation history. The user's ownership of the recipient phone number (+34638734683) is confirmed, and the interaction suggests an informal relationship dynamic between the user and María Ángeles, possibly related to coordinating social plans."
-            },
-            {
-                "name": "Cecilio",
-                "score": 0.6920731067657471,
-                "frequency": 3,
-                "document_id": [
-                    "part-00170-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-13T09:36:57Z",
-                    "part-00227-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-11-15T15:56:52Z",
-                    "part-00217-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-11-06T12:02:34Z",
-                    "part-00088-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-10-27T08:01:31Z",
-                    "part-00077-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-03T13:04:38Z",
-                    "part-00155-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-18T14:22:45Z",
-                    "part-00047-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-17T10:04:33Z",
-                    "part-00061-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-06T08:55:08Z",
-                    "part-00018-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-11-15T19:22:45Z",
-                    "part-00167-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-30T19:29:38Z",
-                    "part-00125-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-11-08T12:40:48Z",
-                    "part-00062-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-17T10:49:36Z",
-                    "part-00169-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-16T16:39:35Z",
-                    "part-00163-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-24T12:29:34Z",
-                    "part-00066-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-13T10:42:55Z",
-                    "part-00015-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-20T08:51:06Z",
-                    "part-00120-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-24T15:19:27Z",
-                    "A89537CA-AB95-4813-A240-70CFF8D18DC5",
-                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
-                    "AF7FA7DD-3BD4-41F6-CF50-260BEB456BFF"
-                ],
-                "summary": "This is an SMS message sent to or from the user's phone number +34699323960 on 2024-11-16 at 16:30:20 UTC. The message indicates the user was involved in a conversation discussing Jenny's temporary WhatsApp block and coordinating plans to meet with Cecilio. This suggests the user maintains relationships with both Jenny (who may be experiencing communication issues) and Cecilio (potentially a friend or acquaintance). The use of Spanish in the message body implies the user communicates in this language. The SMS metadata confirms the user's device handled this message through chat ID 69, though no other participants' phone numbers are visible in this record."
-            },
-            {
-                "name": "Sarah",
-                "score": 0.6850533485412598,
-                "frequency": 3,
-                "document_id": [
-                    "part-00013-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2019-09-30T18:51:32Z",
-                    "part-00005-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-08-23T07:42:40Z",
-                    "part-00005-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-02-02T09:37:21Z",
-                    "part-00045-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-10-18T19:01:51Z",
-                    "part-00075-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-08-23T07:43:57Z",
-                    "Dave Laura Sarah + 647-383-776",
-                    "7000F98E-6743-85A1-9400-F651FCBF7589",
-                    "2D4BE4E7-036C-40C0-B9C4-8723F23B52A5",
-                    "FDB3FDBF-96A6-4751-AD8B-CE14AD51FAAA",
-                    "39ED57C1-5022-458D-9ABB-903EF4E115CE",
-                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565",
-                    "5F455F18-4D0B-4575-A5D1-EB5D06CCEC72",
-                    "0820A8A7-AB72-4E7E-8D4A-2168D6925B9D"
-                ],
-                "summary": "This is an SMS message sent to the user, inferred to be associated with a Spanish phone number (based on the sender's +34 country code). The message was sent on 26 December 2024 at 11:19:30 UTC, suggesting potential holiday-season communication. The SMS originated from the number +34678057952, indicating the user has a contact or connection in Spain. The message body 'Sarah no me habia fijado' (Spanish for 'Sarah, I hadn't noticed') reveals the user communicates in Spanish, implies a personal relationship with someone named Sarah, and suggests a conversational context where an oversight or observation is being discussed. The chatId '17' indicates this is part of an ongoing SMS thread. The December 26 timestamp may correlate with post-Christmas interactions. The use of informal Spanish ('habia fijado' vs. 'había fijado') suggests casual communication patterns. This document reinforces the user's connections to Spanish-speaking contacts and demonstrates active personal messaging behavior."
-            },
-            {
-                "name": "Gianmarco",
-                "score": 0.6835939884185791,
-                "frequency": 3,
-                "document_id": [
-                    "part-00008-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-01T03:06:13Z",
-                    "part-00123-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-01-20T02:31:12Z",
-                    "part-00189-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-05-02T07:58:09Z",
-                    "part-00147-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-06-03T11:54:55Z",
-                    "part-00092-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-10-11T13:09:34Z",
-                    "part-00052-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-08-29T11:55:17Z",
-                    "part-00190-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-07-17T11:55:07Z",
-                    "part-00190-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-10T07:14:39Z",
-                    "part-00043-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-11-01T09:10:04Z",
-                    "part-00026-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-07T03:13:29Z",
-                    "part-00236-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-11T08:55:36Z",
-                    "part-00211-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-26T05:18:33Z",
-                    "part-00084-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-02T02:41:18Z",
-                    "part-00014-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-11-05T09:49:08Z",
-                    "part-00142-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-20T02:30:28Z",
-                    "part-00137-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-04-02T05:14:01Z",
-                    "Gianmarco + +34697213461 + +34697213461",
-                    "Gianmarco + +34663482643",
-                    "2A063824-C573-4120-B389-AA900B91E814",
-                    "FA0A3DC1-F72A-E231-EE70-F156A999969F",
-                    "92EA8F2B-6282-B7F8-2B97-98D12FD2D2F3",
-                    "99E4C7B8-6338-4055-AD91-71D763D312BF",
-                    "2D4BE4E7-036C-40C0-B9C4-8723F23B52A5",
-                    "648D4B53-AE42-4C12-89B0-5D5990C84643",
-                    "FDB3FDBF-96A6-4751-AD8B-CE14AD51FAAA",
-                    "45099837-AAF5-418B-AA9A-84004A22EB93",
-                    "D1320C79-28F8-4B69-A813-6946D0DA492C",
-                    "E20DAAAF-F8F9-0C09-EF2E-629C35D3252A",
-                    "E20DAAAF-F8F9-0C09-EF2E-629C35D3252A",
-                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565",
-                    "57F8D22E-7E6C-43EC-953D-D370A3F26E8C",
-                    "8EAB936D-F3EA-41F3-9862-A205C7FF22DA"
-                ],
-                "summary": "This is an SMS message (SearchItemMobileSmsDocument) sent to the user's phone number +34699323960 on 26 December 2024 at 22:17:28 UTC. The message body 'Walter el gorro de Gianmarco' (Spanish for 'Walter [took/is] Gianmarco's hat') suggests a personal interaction or event involving two individuals named Walter and Gianmarco, potentially indicating a social relationship or shared activity between them. The Spanish-language content implies the user may have Spanish-speaking connections or cultural context. The SMS metadata confirms the user's ownership of the +34699323960 mobile number and documents communication occurring through text messaging channels."
-            },
-            {
-                "name": "Dave Eulalia",
-                "score": 0.7458682060241699,
-                "frequency": 2,
-                "document_id": [
-                    "part-00168-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-12T18:58:29Z",
-                    "part-00231-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-14T20:10:49Z",
-                    "part-00151-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2014-06-16T15:06:47Z",
-                    "part-00198-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-16T16:35:14Z"
-                ],
-                "summary": "This document is an email notification from Facebook sent to the user, identified as Hortense Michael with the email address walter69@gmail.com, on January 16, 2013. The email alerted Hortense to pending Facebook activity, including 8 friend requests, 1 unread message, and 3 notifications. It listed friends and connections such as Estela Felipe, Pablo Martínez Brian Villa, Dave Eulalia, and 4 others who had posted updates, statuses, and photos. Specific interactions highlighted included comments by Francisca Alexandra on her own status and Pablo Martínez Brian Villa commenting on his own status. The email contained multiple hyperlinks to Facebook profiles, posts, and notification settings, along with profile images linked to accounts like BoneWarmachine, PabloMdeVilla, and ladygrotesca. The email was sent from \"Georges\" via a Yahoo address (update+zj4yaf4a=marie80@yahoo.com) and included an unsubscribe link and a physical address in the footer: Plaza Piedad Neira 59 Apt. 34, which may relate to account metadata. The document reveals the user’s active Facebook presence, social connections, and engagement with platform notifications, as well as their use of the email alias walter69@gmail.com."
-            },
-            {
-                "name": "Federica Laura",
-                "score": 0.7442872524261475,
-                "frequency": 2,
-                "document_id": [
-                    "part-00108-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-02-24T16:53:12Z",
-                    "part-00041-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-02-11T16:58:31Z",
-                    "part-00119-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-05-19T08:44:39Z",
-                    "part-00211-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-03-03T15:54:45Z"
-                ],
-                "summary": "This document is a notification email sent from Tuenti to the user, identified as Isabela Michael, whose email address is walter69@gmail.com (based on the recipient field 'Doctora Shaw <walter69@gmail.com>'). The email, dated March 3, 2013, contains multiple updates: 1) Federica Laura accepted the user's friendship request, establishing a direct social connection. 2) Six new photos from the user's friends were uploaded, though specific friends are not named. 3) A network expansion is noted where Rufino Nilo Bernardo became friends with Jeremy Helma Gabino (a friend-of-friend relationship). The email originated from Caleb Jenaro Ashley (coronazorrilla@gmail.com) and includes Tuenti platform links for profile management, image viewing, and notification settings adjustment. An unsubscribe option via felipe21@yahoo.com is provided. The presence of Spanish-language content and Tuenti branding (a historically Spain-focused social network) suggests the user may have Spanish-language proficiency or regional ties. The structured notifications indicate active social media engagement through Tuenti, with inferred interests in maintaining digital social connections and photo sharing."
-            },
-            {
-                "name": "Victor manuel",
-                "score": 0.7149877548217773,
-                "frequency": 2,
-                "document_id": [
-                    "part-00071-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-20T07:18:40Z",
-                    "part-00097-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-19T02:18:42Z",
-                    "Neumáticos Victor manuel + 661-540-346 + 661-540-346",
-                    "FA0A3DC1-F72A-E231-EE70-F156A999969F",
-                    "F77F0DD1-F04D-4946-21E9-5A248CAEF03D",
-                    "C3251F7D-EC19-C2F9-68C8-7B6708E9E2C9",
-                    "93ED8A4A-913E-B9AB-41AF-E961433D35AE",
-                    "A89537CA-AB95-4813-A240-70CFF8D18DC5",
-                    "648D4B53-AE42-4C12-89B0-5D5990C84643",
-                    "FDB3FDBF-96A6-4751-AD8B-CE14AD51FAAA",
-                    "F3CE552E-5190-4C84-673C-2EFF06E7175B",
-                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
-                    "39ED57C1-5022-458D-9ABB-903EF4E115CE",
-                    "E20DAAAF-F8F9-0C09-EF2E-629C35D3252A",
-                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565"
-                ],
-                "summary": "This is an SMS message sent to the user's phone number +34678051087 on 2024-12-12 at 14:30:48 UTC, indicating the user owns this Spanish mobile number. The message contains a list of names: Pepito, Virgilio, Sarah, Norberto, Gianmarco, Eusebia, Jenaro, Crystal, Jerome, and Victor Manuel, suggesting potential personal or professional connections in the user's network. The repeated mention of 'Pepito' and 'Gianmarco' may indicate closer relationships or frequent interactions with these individuals. The message's lack of contextual phrases implies it could be a contact list exchange, group chat participant list, or coded reference to social connections. The chat ID '17' suggests this belongs to an organized thread or conversation group in the user's messaging history. The future timestamp (December 2024) might indicate either a device clock anomaly or a scheduled message."
-            },
-            {
-                "name": "Victor Manuel",
-                "score": 0.6892116069793701,
-                "frequency": 2,
-                "document_id": [
-                    "part-00118-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-04-01T12:19:04Z",
-                    "part-00077-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-10-02T02:04:12Z",
-                    "part-00073-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2019-05-22T13:13:03Z",
-                    "part-00196-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-09T09:56:10Z",
-                    "51201555-ADC0-ADDC-F202-0D6935F963EA",
-                    "2D4BE4E7-036C-40C0-B9C4-8723F23B52A5",
-                    "E8DAB0E2-FF97-4B76-AE6B-181A835E39A1",
-                    "7F88224D-E457-1967-00E5-1D7B6675F027",
-                    "D668CD77-0DA8-497B-98B6-11A9AD208EF2",
-                    "F2CE6724-AB8E-1737-3440-F5B22DE74737",
-                    "5F455F18-4D0B-4575-A5D1-EB5D06CCEC72",
-                    "416CB72C-08D3-B8E8-72AD-05453F0D33AB",
-                    "2F4F9377-A99D-45F3-8902-0068F5589A22",
-                    "63C3747A-69BF-4C42-9344-78DB5632FEBD",
-                    "11D3FFF1-5429-DE02-15A7-A463FB49EE43"
-                ],
-                "summary": "This is an SMS document generated on 08 May 2023 at 15:08:55 UTC, indicating a missed call notification. The message body states that 'Victor Manuel' called the user at 16:51 local time on 08 May 2023. The sender's address '+34Victor manuel' suggests the call originated from a Spanish phone number (country code +34), and the inclusion of the contact name 'Victor Manuel' implies this number is saved in the user's device contacts, indicating a pre-existing relationship. The SMS metadata confirms the user received this automated notification, reinforcing that the user's phone number is associated with the device that generated the document. The interaction implies Victor Manuel is a known entity in the user's network, potentially a friend, colleague, or acquaintance. The precise timestamp and date provide contextual insight into the user's communication patterns and timeline of events."
-            },
-            {
                 "name": "Federica",
                 "score": 0.6875159740447998,
-                "frequency": 2,
+                "frequency": 55,
                 "document_id": [
                     "part-00132-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-03-20T19:09:44Z",
                     "part-00168-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-03-22T07:57:02Z",
@@ -363,7 +74,7 @@
             {
                 "name": "Gianmarco",
                 "score": 0.6835939884185791,
-                "frequency": 2,
+                "frequency": 32,
                 "document_id": [
                     "part-00008-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-01T03:06:13Z",
                     "part-00123-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-01-20T02:31:12Z",
@@ -401,9 +112,334 @@
                 "summary": "This is an SMS message (SearchItemMobileSmsDocument) sent to the user's phone number +34699323960 on 26 December 2024 at 22:17:28 UTC. The message body 'Walter el gorro de Gianmarco' (Spanish for 'Walter [took/is] Gianmarco's hat') suggests a personal interaction or event involving two individuals named Walter and Gianmarco, potentially indicating a social relationship or shared activity between them. The Spanish-language content implies the user may have Spanish-speaking connections or cultural context. The SMS metadata confirms the user's ownership of the +34699323960 mobile number and documents communication occurring through text messaging channels."
             },
             {
+                "name": "Crystal",
+                "score": 0.7149877548217773,
+                "frequency": 25,
+                "document_id": [
+                    "part-00091-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-10T10:16:39Z",
+                    "part-00135-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-17T10:42:42Z",
+                    "part-00029-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-28T21:20:55Z",
+                    "part-00115-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-20T11:24:20Z",
+                    "part-00007-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-02-01T22:47:40Z",
+                    "part-00028-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-01-30T12:01:37Z",
+                    "part-00191-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-05-02T08:45:45Z",
+                    "part-00121-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-12-10T10:03:30Z",
+                    "part-00120-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-01-27T21:22:38Z",
+                    "63F2F9DC-BB0C-477B-BB6E-6A42CAC86704",
+                    "Crystal + +34655468142 + +34655468142",
+                    "Crystal + +34695945522 + +34695945522",
+                    "Crystal + +5492236334851 + +5492236334851",
+                    "Crystal + +34652500632 + +34652500632",
+                    "Crystal + +34658912089 + +34658912089",
+                    "Crystal + +34669097875 + +34669097875",
+                    "Crystal + +34651590824 + +34651590824",
+                    "Crystal + +34601073317 + +34601073317",
+                    "Crystal + +34646225581 + +34646225581",
+                    "9BADA819-96B5-4BE2-BA60-7BBAE404AA3F",
+                    "07612FD6-5C19-5B53-B5AA-34D529A04865",
+                    "39ED57C1-5022-458D-9ABB-903EF4E115CE",
+                    "C197BBAD-93B6-4FD5-9B26-8D4269E13E59",
+                    "A69F99A2-AFAE-092D-8237-3B06FF779480",
+                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565"
+                ],
+                "summary": "This is an SMS message sent to the user's phone number +34678051087 on 2024-12-12 at 14:30:48 UTC, indicating the user owns this Spanish mobile number. The message contains a list of names: Pepito, Virgilio, Sarah, Norberto, Gianmarco, Eusebia, Jenaro, Crystal, Jerome, and Victor Manuel, suggesting potential personal or professional connections in the user's network. The repeated mention of 'Pepito' and 'Gianmarco' may indicate closer relationships or frequent interactions with these individuals. The message's lack of contextual phrases implies it could be a contact list exchange, group chat participant list, or coded reference to social connections. The chat ID '17' suggests this belongs to an organized thread or conversation group in the user's messaging history. The future timestamp (December 2024) might indicate either a device clock anomaly or a scheduled message."
+            },
+            {
+                "name": "Cecilio",
+                "score": 0.6920731067657471,
+                "frequency": 20,
+                "document_id": [
+                    "part-00170-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-13T09:36:57Z",
+                    "part-00227-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-11-15T15:56:52Z",
+                    "part-00217-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-11-06T12:02:34Z",
+                    "part-00088-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-10-27T08:01:31Z",
+                    "part-00077-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-03T13:04:38Z",
+                    "part-00155-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-18T14:22:45Z",
+                    "part-00047-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-17T10:04:33Z",
+                    "part-00061-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-06T08:55:08Z",
+                    "part-00018-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-11-15T19:22:45Z",
+                    "part-00167-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-30T19:29:38Z",
+                    "part-00125-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-11-08T12:40:48Z",
+                    "part-00062-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-17T10:49:36Z",
+                    "part-00169-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-16T16:39:35Z",
+                    "part-00163-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-04-24T12:29:34Z",
+                    "part-00066-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-13T10:42:55Z",
+                    "part-00015-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-20T08:51:06Z",
+                    "part-00120-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-10-24T15:19:27Z",
+                    "A89537CA-AB95-4813-A240-70CFF8D18DC5",
+                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
+                    "AF7FA7DD-3BD4-41F6-CF50-260BEB456BFF"
+                ],
+                "summary": "This is an SMS message sent to or from the user's phone number +34699323960 on 2024-11-16 at 16:30:20 UTC. The message indicates the user was involved in a conversation discussing Jenny's temporary WhatsApp block and coordinating plans to meet with Cecilio. This suggests the user maintains relationships with both Jenny (who may be experiencing communication issues) and Cecilio (potentially a friend or acquaintance). The use of Spanish in the message body implies the user communicates in this language. The SMS metadata confirms the user's device handled this message through chat ID 69, though no other participants' phone numbers are visible in this record."
+            },
+            {
+                "name": "Matthew",
+                "score": 0.6816294193267822,
+                "frequency": 17,
+                "document_id": [
+                    "part-00013-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-01-29T17:33:28Z",
+                    "part-00091-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-05-26T08:40:49Z",
+                    "part-00072-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-09-16T19:07:36Z",
+                    "part-00216-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-28T19:08:42Z",
+                    "part-00118-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-21T18:40:28Z",
+                    "part-00124-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-06-27T22:23:40Z",
+                    "part-00059-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-06-27T12:45:42Z",
+                    "part-00069-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-02-05T11:21:52Z",
+                    "part-00190-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2017-03-24T10:41:48Z",
+                    "part-00082-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-06-27T20:28:35Z",
+                    "part-00122-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-09-17T02:58:39Z",
+                    "part-00152-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-08-31T19:01:10Z",
+                    "part-00045-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-21T11:53:37Z",
+                    "part-00025-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2023-01-31T12:15:16Z",
+                    "part-00014-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-06-27T19:46:07Z",
+                    "part-00198-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-06-27T20:11:50Z",
+                    "part-00083-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-26T13:41:46Z"
+                ],
+                "summary": "This was an email notification sent to the user, whose email address is walter69@gmail.com, from Matthew <noresponder@Matthew.com> on 2024-12-26T13:41:46Z via the platform Idealista. The email notified the user (addressed as Heloísa Brian) about a newly listed room rental matching their search criteria for 'Habitaciones cerca de Metro Colonia Jardín'. The listing described a 400€/month room in a 4-bedroom apartment located at Rambla Tiburcio Valdés 14 Puerta 6 in Madrid's Campamento neighborhood, with a non-smoking policy. The property featured 7 photos and was promoted through tracking links containing campaign parameters indicating this was part of a retention campaign for rental alerts. The user appeared actively engaged in housing searches, having configured immediate notifications for new listings. Metadata suggested the user interacted with Idealista's email system through tracking pixels and URL parameters containing a unique recipient ID (GtmHrAOkx/5yEc0QAiOTijaFf/sWwlbeb3v/MbUz1Bs=). The email encouraged mobile app usage for faster notifications and provided options to adjust alert preferences, implying the user might be refining their housing search parameters. Geographical focus on Metro Colonia Jardín area and budget constraints around 400€/month indicated specific residential preferences. The message included legal compliance references to Idealista's privacy policy and terms of service, confirming the user's acceptance of these conditions. The future timestamp (2024-12-26) suggested either a test message or system timestamp error."
+            },
+            {
+                "name": "Victor manuel",
+                "score": 0.7149877548217773,
+                "frequency": 15,
+                "document_id": [
+                    "part-00071-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-20T07:18:40Z",
+                    "part-00097-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-19T02:18:42Z",
+                    "Neumáticos Victor manuel + 661-540-346 + 661-540-346",
+                    "FA0A3DC1-F72A-E231-EE70-F156A999969F",
+                    "F77F0DD1-F04D-4946-21E9-5A248CAEF03D",
+                    "C3251F7D-EC19-C2F9-68C8-7B6708E9E2C9",
+                    "93ED8A4A-913E-B9AB-41AF-E961433D35AE",
+                    "A89537CA-AB95-4813-A240-70CFF8D18DC5",
+                    "648D4B53-AE42-4C12-89B0-5D5990C84643",
+                    "FDB3FDBF-96A6-4751-AD8B-CE14AD51FAAA",
+                    "F3CE552E-5190-4C84-673C-2EFF06E7175B",
+                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
+                    "39ED57C1-5022-458D-9ABB-903EF4E115CE",
+                    "E20DAAAF-F8F9-0C09-EF2E-629C35D3252A",
+                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565"
+                ],
+                "summary": "This is an SMS message sent to the user's phone number +34678051087 on 2024-12-12 at 14:30:48 UTC, indicating the user owns this Spanish mobile number. The message contains a list of names: Pepito, Virgilio, Sarah, Norberto, Gianmarco, Eusebia, Jenaro, Crystal, Jerome, and Victor Manuel, suggesting potential personal or professional connections in the user's network. The repeated mention of 'Pepito' and 'Gianmarco' may indicate closer relationships or frequent interactions with these individuals. The message's lack of contextual phrases implies it could be a contact list exchange, group chat participant list, or coded reference to social connections. The chat ID '17' suggests this belongs to an organized thread or conversation group in the user's messaging history. The future timestamp (December 2024) might indicate either a device clock anomaly or a scheduled message."
+            },
+            {
+                "name": "Victor Manuel",
+                "score": 0.6892116069793701,
+                "frequency": 15,
+                "document_id": [
+                    "part-00118-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-04-01T12:19:04Z",
+                    "part-00077-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-10-02T02:04:12Z",
+                    "part-00073-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2019-05-22T13:13:03Z",
+                    "part-00196-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-12-09T09:56:10Z",
+                    "51201555-ADC0-ADDC-F202-0D6935F963EA",
+                    "2D4BE4E7-036C-40C0-B9C4-8723F23B52A5",
+                    "E8DAB0E2-FF97-4B76-AE6B-181A835E39A1",
+                    "7F88224D-E457-1967-00E5-1D7B6675F027",
+                    "D668CD77-0DA8-497B-98B6-11A9AD208EF2",
+                    "F2CE6724-AB8E-1737-3440-F5B22DE74737",
+                    "5F455F18-4D0B-4575-A5D1-EB5D06CCEC72",
+                    "416CB72C-08D3-B8E8-72AD-05453F0D33AB",
+                    "2F4F9377-A99D-45F3-8902-0068F5589A22",
+                    "63C3747A-69BF-4C42-9344-78DB5632FEBD",
+                    "11D3FFF1-5429-DE02-15A7-A463FB49EE43"
+                ],
+                "summary": "This is an SMS document generated on 08 May 2023 at 15:08:55 UTC, indicating a missed call notification. The message body states that 'Victor Manuel' called the user at 16:51 local time on 08 May 2023. The sender's address '+34Victor manuel' suggests the call originated from a Spanish phone number (country code +34), and the inclusion of the contact name 'Victor Manuel' implies this number is saved in the user's device contacts, indicating a pre-existing relationship. The SMS metadata confirms the user received this automated notification, reinforcing that the user's phone number is associated with the device that generated the document. The interaction implies Victor Manuel is a known entity in the user's network, potentially a friend, colleague, or acquaintance. The precise timestamp and date provide contextual insight into the user's communication patterns and timeline of events."
+            },
+            {
+                "name": "Sarah",
+                "score": 0.6850533485412598,
+                "frequency": 13,
+                "document_id": [
+                    "part-00013-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2019-09-30T18:51:32Z",
+                    "part-00005-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-08-23T07:42:40Z",
+                    "part-00005-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-02-02T09:37:21Z",
+                    "part-00045-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-10-18T19:01:51Z",
+                    "part-00075-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-08-23T07:43:57Z",
+                    "Dave Laura Sarah + 647-383-776",
+                    "7000F98E-6743-85A1-9400-F651FCBF7589",
+                    "2D4BE4E7-036C-40C0-B9C4-8723F23B52A5",
+                    "FDB3FDBF-96A6-4751-AD8B-CE14AD51FAAA",
+                    "39ED57C1-5022-458D-9ABB-903EF4E115CE",
+                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565",
+                    "5F455F18-4D0B-4575-A5D1-EB5D06CCEC72",
+                    "0820A8A7-AB72-4E7E-8D4A-2168D6925B9D"
+                ],
+                "summary": "This is an SMS message sent to the user, inferred to be associated with a Spanish phone number (based on the sender's +34 country code). The message was sent on 26 December 2024 at 11:19:30 UTC, suggesting potential holiday-season communication. The SMS originated from the number +34678057952, indicating the user has a contact or connection in Spain. The message body 'Sarah no me habia fijado' (Spanish for 'Sarah, I hadn't noticed') reveals the user communicates in Spanish, implies a personal relationship with someone named Sarah, and suggests a conversational context where an oversight or observation is being discussed. The chatId '17' indicates this is part of an ongoing SMS thread. The December 26 timestamp may correlate with post-Christmas interactions. The use of informal Spanish ('habia fijado' vs. 'había fijado') suggests casual communication patterns. This document reinforces the user's connections to Spanish-speaking contacts and demonstrates active personal messaging behavior."
+            },
+            {
+                "name": "Eusebio",
+                "score": 0.6970086097717285,
+                "frequency": 7,
+                "document_id": [
+                    "FA0A3DC1-F72A-E231-EE70-F156A999969F",
+                    "E8DAB0E2-FF97-4B76-AE6B-181A835E39A1",
+                    "FDB3FDBF-96A6-4751-AD8B-CE14AD51FAAA",
+                    "18B7B920-4D3D-475F-88B0-4E144CF3178D",
+                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
+                    "39ED57C1-5022-458D-9ABB-903EF4E115CE",
+                    "ADA0AAC5-ECDA-4751-B712-3601898A3B75"
+                ],
+                "summary": "This is an SMS message sent to the user's Spanish phone number (+34646225581) on 26 December 2024 at 10:31:42 UTC. The message body contains a list of 10 Spanish-language names: Corona, Eladio, Eligia, Manu, Íñigo, Teresita, Isidora, Eusebio, Coral, and Lado. These names likely represent individuals in the user's social or professional network, potentially indicating family members, friends, or community contacts. The Spanish phone number and culturally specific names strongly suggest the user has connections to Spanish-speaking communities. The future date of the message implies it may relate to an upcoming event, contact sharing, or reminder involving this group. The presence of multiple unique names indicates the user maintains an extensive personal network that could be relevant for understanding their social relationships and cultural context."
+            },
+            {
+                "name": "Pepito",
+                "score": 0.6909284591674805,
+                "frequency": 7,
+                "document_id": [
+                    "C35BF297-559A-4AA2-AAAE-1B50287CAE8D",
+                    "E8DAB0E2-FF97-4B76-AE6B-181A835E39A1",
+                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
+                    "FAE9BAE5-A2D5-4435-A450-BE84AD2ED0AA",
+                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565",
+                    "4DB7DB88-B757-4E87-9E66-AEC980B5EBCC",
+                    "B487FF37-8511-4CA7-BC04-69B2AF2CCA31"
+                ],
+                "summary": "This is an SMS document sent to the user's phone number +34699323960 on 2024-12-19 at 11:18:50 UTC, indicating this is the user's verified contact number. The message body contains a list of names: Estela, Pepito, Luis María, Jesús, sábadNazario, Nazario, and Ruby, suggesting these individuals may be personal contacts, family members, or socially relevant entities in the user's network. The repeated mention of 'Nazario' could indicate particular significance or multiple connections to this name. The inclusion of 'Ruby' as a standalone term might represent a person, pet, codename, or project of interest. The SMS was part of chat thread ID 69, though no sender information is provided. The unstructured nature of the message body implies potential shorthand communication or context known between participants. The timestamp suggests this interaction occurred during morning hours in the UTC timezone."
+            },
+            {
+                "name": "Eutropio",
+                "score": 0.6829032897949219,
+                "frequency": 6,
+                "document_id": [
+                    "part-00100-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-07-16T16:40:59Z",
+                    "part-00125-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-09-18T20:16:17Z",
+                    "BA8392E6-202E-77D7-A5F2-DFDB7BAA1D6E",
+                    "1EB66A0B-1443-5978-0437-60F86C4C1364",
+                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
+                    "7AC190D9-1EE9-4FED-8BB5-31A333AFAB1F"
+                ],
+                "summary": "This document is an SMS message sent to the user's phone number +34678057952 on 26 December 2024 at 11:01:36 UTC. The message body contains Spanish text: 'Eutropio Jenaro Eusebia yo no te van a rondar toda l vida' (translated roughly as 'Eutropio Jenaro Eusebia they will not bother you all your life'), suggesting a personal conversation addressing three individuals (Eutropio, Jenaro, and Eusebia) who are likely acquaintances or relationships of the user. The message's tone implies reassurance or warning about persistent attention from third parties. The use of Spanish and the +34 country code in the recipient number indicates potential connections to Spain or Spanish-speaking communities. The future timestamp (2024) may suggest either a scheduled message or an artefact of system metadata. This interaction reinforces the user's association with these three named individuals and their participation in Spanish-language communications."
+            },
+            {
+                "name": "Eusebia",
+                "score": 0.7000918388366699,
+                "frequency": 5,
+                "document_id": [
+                    "84B8A7CA-B4F2-4AF6-B418-51A79A530B69",
+                    "740DB6D4-1D15-4BA8-8B7C-5AEB51E0C565",
+                    "7AC190D9-1EE9-4FED-8BB5-31A333AFAB1F",
+                    "57F8D22E-7E6C-43EC-953D-D370A3F26E8C",
+                    "06921C61-19C9-4C8E-BCB8-754294FD480A"
+                ],
+                "summary": "This is an SMS message sent by the user to the phone number +34646226896 (likely associated with a contact named 'Eusebia' based on the message body) on 26 December 2024 at 11:32:13 UTC. The message body 'Eusebia otros años' (Spanish for 'Eusebia other years' or 'Eusebia previous years') suggests a reference to past events, traditions, or shared history between the user and Eusebia. The communication indicates an established personal relationship, potentially familial or close friendship, given the use of a first name and context implying recurring annual interactions. The use of a Spanish-language message and +34 country code phone number implies connections to Spain or Spanish-speaking regions. The message's timing (26 December) may relate to post-Christmas communication or year-end reflections. This document confirms the user's active communication with Eusebia and preserves temporal evidence of their relationship dynamics."
+            },
+            {
+                "name": "Dave Eulalia",
+                "score": 0.7458682060241699,
+                "frequency": 4,
+                "document_id": [
+                    "part-00168-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-12T18:58:29Z",
+                    "part-00231-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-14T20:10:49Z",
+                    "part-00151-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2014-06-16T15:06:47Z",
+                    "part-00198-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-16T16:35:14Z"
+                ],
+                "summary": "This document is an email notification from Facebook sent to the user, identified as Hortense Michael with the email address walter69@gmail.com, on January 16, 2013. The email alerted Hortense to pending Facebook activity, including 8 friend requests, 1 unread message, and 3 notifications. It listed friends and connections such as Estela Felipe, Pablo Martínez Brian Villa, Dave Eulalia, and 4 others who had posted updates, statuses, and photos. Specific interactions highlighted included comments by Francisca Alexandra on her own status and Pablo Martínez Brian Villa commenting on his own status. The email contained multiple hyperlinks to Facebook profiles, posts, and notification settings, along with profile images linked to accounts like BoneWarmachine, PabloMdeVilla, and ladygrotesca. The email was sent from \"Georges\" via a Yahoo address (update+zj4yaf4a=marie80@yahoo.com) and included an unsubscribe link and a physical address in the footer: Plaza Piedad Neira 59 Apt. 34, which may relate to account metadata. The document reveals the user’s active Facebook presence, social connections, and engagement with platform notifications, as well as their use of the email alias walter69@gmail.com."
+            },
+            {
+                "name": "Federica Laura",
+                "score": 0.7442872524261475,
+                "frequency": 4,
+                "document_id": [
+                    "part-00108-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-02-24T16:53:12Z",
+                    "part-00041-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-02-11T16:58:31Z",
+                    "part-00119-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-05-19T08:44:39Z",
+                    "part-00211-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-03-03T15:54:45Z"
+                ],
+                "summary": "This document is a notification email sent from Tuenti to the user, identified as Isabela Michael, whose email address is walter69@gmail.com (based on the recipient field 'Doctora Shaw <walter69@gmail.com>'). The email, dated March 3, 2013, contains multiple updates: 1) Federica Laura accepted the user's friendship request, establishing a direct social connection. 2) Six new photos from the user's friends were uploaded, though specific friends are not named. 3) A network expansion is noted where Rufino Nilo Bernardo became friends with Jeremy Helma Gabino (a friend-of-friend relationship). The email originated from Caleb Jenaro Ashley (coronazorrilla@gmail.com) and includes Tuenti platform links for profile management, image viewing, and notification settings adjustment. An unsubscribe option via felipe21@yahoo.com is provided. The presence of Spanish-language content and Tuenti branding (a historically Spain-focused social network) suggests the user may have Spanish-language proficiency or regional ties. The structured notifications indicate active social media engagement through Tuenti, with inferred interests in maintaining digital social connections and photo sharing."
+            },
+            {
+                "name": "Coral",
+                "score": 0.6970086097717285,
+                "frequency": 4,
+                "document_id": [
+                    "FDB3FDBF-96A6-4751-AD8B-CE14AD51FAAA",
+                    "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
+                    "E20DAAAF-F8F9-0C09-EF2E-629C35D3252A",
+                    "ADA0AAC5-ECDA-4751-B712-3601898A3B75"
+                ],
+                "summary": "This is an SMS message sent to the user's Spanish phone number (+34646225581) on 26 December 2024 at 10:31:42 UTC. The message body contains a list of 10 Spanish-language names: Corona, Eladio, Eligia, Manu, Íñigo, Teresita, Isidora, Eusebio, Coral, and Lado. These names likely represent individuals in the user's social or professional network, potentially indicating family members, friends, or community contacts. The Spanish phone number and culturally specific names strongly suggest the user has connections to Spanish-speaking communities. The future date of the message implies it may relate to an upcoming event, contact sharing, or reminder involving this group. The presence of multiple unique names indicates the user maintains an extensive personal network that could be relevant for understanding their social relationships and cultural context."
+            },
+            {
+                "name": "María Ángeles",
+                "score": 0.6944351196289062,
+                "frequency": 4,
+                "document_id": [
+                    "4B446759-8D92-E92D-66B5-20CEE8BD2209",
+                    "60E41514-6CFD-80E4-6A60-9611178698A1",
+                    "0C0E947A-17D1-42C2-B664-A338AF16663B",
+                    "432F52C7-1385-44C6-8CCE-B182F0D4CDCF"
+                ],
+                "summary": "This is an SMS message sent to the user's phone number (+34638734683) on 26 December 2024 at 12:28:41 UTC. The message, written in Spanish, states 'El domingo María Ángeles no puede XD' ('On Sunday, María Ángeles can't make it XD'), with 'XD' suggesting a casual or humorous tone. The reference to Sunday implies a planned event or commitment involving María Ángeles, who is likely a social contact of the user. The message's metadata includes a unique ID (432F52C7-1385-44C6-8CCE-B182F0D4CDCF) and chat thread ID (22), indicating it is part of a broader conversation history. The user's ownership of the recipient phone number (+34638734683) is confirmed, and the interaction suggests an informal relationship dynamic between the user and María Ángeles, possibly related to coordinating social plans."
+            },
+            {
+                "name": "Heather",
+                "score": 0.6939473152160645,
+                "frequency": 4,
+                "document_id": [
+                    "part-00013-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2019-09-30T18:51:32Z",
+                    "part-00096-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2022-04-22T08:05:13Z",
+                    "part-00037-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2019-09-19T17:31:29Z",
+                    "5F455F18-4D0B-4575-A5D1-EB5D06CCEC72"
+                ],
+                "summary": "This is an SMS message sent to the user's phone number +34678057952 on 2024-12-12 at 11:52:59 UTC. The message contains a poetic Spanish-language text addressing Heather, Victor Manuel, Sarah, Jonathan, and Rafa, with emotional themes of love, vulnerability, and inner conflict. The user appears connected to individuals named Heather (mentioned 5 times with thematic emphasis), Victor Manuel (repeated), Sarah, and Jonathan, suggesting these may be friends, family, or significant relationships. References to 'Rafa' and metaphorical language about 'walls around Heather's heart' imply complex interpersonal dynamics. The message's tone suggests deep personal reflection or romantic tension, potentially indicating the user's involvement in sensitive emotional matters. The Spanish composition and literary style might reflect the user's cultural background or language proficiency. The SMS was part of chat thread ID 17, though no other participants are explicitly listed beyond the recipient."
+            },
+            {
+                "name": "Mariano África",
+                "score": 0.7510459423065186,
+                "frequency": 3,
+                "document_id": [
+                    "part-00043-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-07-22T00:08:23Z",
+                    "part-00068-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-11T05:23:50Z",
+                    "part-00211-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-09T00:26:39Z"
+                ],
+                "summary": "This is a Facebook notification email sent to the user, Hortense Michael (walter69@gmail.com), on 2013-01-09T00:26:39Z. The email confirms that Mariano África (also referred to as Mariano Cuesta in the body) accepted the user’s friend request on Facebook, establishing a direct social connection between them. The document includes the user’s physical address: Plaza Piedad Neira 59 Apt. 34, which may indicate their residence or a location associated with their account. Metadata reveals the email was sent from a Facebook notification system (\"Georges\" <notification+zj4yaf4a=marie80@yahoo.com>) to the user’s primary email. The body contains profile links for Mariano Cuesta, friend suggestion features, and an unsubscribe option for future notifications. A profile image URL (http://profile.ak.fbcdn.net/hprofile-ak-ash4/371751_100003217264302_1172523607_q.jpg) is embedded, likely depicting Mariano Cuesta. The email includes tracking pixels (http://www.facebook.com/email_open_log_pic.php?c=518522&mid=75726eaG5af43a29fe5cG3cdc7G1b) for monitoring engagement. The user’s email walter69@gmail.com is explicitly confirmed as the recipient, and references to alejandritaduran5@gmail.com in URL parameters suggest potential secondary associations or system-level identifiers. The document underscores the user’s active Facebook account, social interactions, and provision of personal data (email, address) to the platform."
+            },
+            {
+                "name": "Jacinto",
+                "score": 0.7052409648895264,
+                "frequency": 3,
+                "document_id": [
+                    "part-00045-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-10-18T19:01:51Z",
+                    "BB02083F-E017-E402-E6B6-5A7237119D83",
+                    "7132208A-5EDB-4D83-9EB3-4BBEA27C8225"
+                ],
+                "summary": "This is an SMS message sent by the user to a contact named Jacinto on December 26, 2024, at 09:44:16 UTC. The message, written in Spanish, inquired about Jacinto's well-being and that of his family ('Jacinto cómo te encuentras y cómo está tu familia'), suggesting a personal relationship and ongoing communication. The SMS was sent to the phone number +34699323960, which is inferred to belong to Jacinto. The user's act of initiating this conversation implies familiarity and concern for Jacinto's personal life, potentially indicating a familial or close friendship bond. Metadata includes the document's internal ID (7132208A-5EDB-4D83-9EB3-4BBEA27C8225), chat thread ID (69), and the precise timestamp, providing provenance details about this communication event. The use of informal Spanish and the direct reference to family matters further contextualizes the user's linguistic preferences and relational network."
+            },
+            {
+                "name": "Corona",
+                "score": 0.6970086097717285,
+                "frequency": 3,
+                "document_id": [
+                    "2D4BE4E7-036C-40C0-B9C4-8723F23B52A5",
+                    "4DB7DB88-B757-4E87-9E66-AEC980B5EBCC",
+                    "ADA0AAC5-ECDA-4751-B712-3601898A3B75"
+                ],
+                "summary": "This is an SMS message sent to the user's Spanish phone number (+34646225581) on 26 December 2024 at 10:31:42 UTC. The message body contains a list of 10 Spanish-language names: Corona, Eladio, Eligia, Manu, Íñigo, Teresita, Isidora, Eusebio, Coral, and Lado. These names likely represent individuals in the user's social or professional network, potentially indicating family members, friends, or community contacts. The Spanish phone number and culturally specific names strongly suggest the user has connections to Spanish-speaking communities. The future date of the message implies it may relate to an upcoming event, contact sharing, or reminder involving this group. The presence of multiple unique names indicates the user maintains an extensive personal network that could be relevant for understanding their social relationships and cultural context."
+            },
+            {
+                "name": "Dafne",
+                "score": 0.6958277225494385,
+                "frequency": 3,
+                "document_id": [
+                    "D1320C79-28F8-4B69-A813-6946D0DA492C",
+                    "F069F037-AC91-47CF-9624-D242236A7895",
+                    "1225BC8D-620E-41CF-9614-1DB4CA1C4E43"
+                ],
+                "summary": "This is an SMS document sent to the user's mobile device on 28 December 2024 at 19:15:13 UTC. The message originated from the phone number +34644522546 (Spanish country code +34), indicating communication with a contact based in Spain or connected to Spanish networks. The SMS body contains five sequential names: Eliana, Eligia, Dafne, Marcela, and Jenaro, suggesting either a deliberate list of personal contacts, family members, or cultural references being shared. The repetition of 'Eliana' as first name and the structure implies these could represent multiple generations, relatives, or a grouping of individuals significant to the user. The chat ID '10' suggests this message belongs to an organized conversation thread within the user's messaging history. The presence of multiple elaborate given names (particularly Eligia and Dafne being relatively uncommon) might indicate familial relationships, event attendee lists, or cultural name preservation patterns relevant to understanding the user's social circle."
+            },
+            {
+                "name": "Pauline",
+                "score": 0.6869592666625977,
+                "frequency": 3,
+                "document_id": [
+                    "part-00225-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2024-09-06T00:31:51Z",
+                    "BE6FA051-B0E6-41DB-AE8C-3F6A36D45103",
+                    "Pauline + 654-821-489"
+                ],
+                "summary": "This document appears to be a contact card entry for an individual named Pauline. The contact record contains Pauline's full name and nickname (both listed as 'Pauline'), with a mobile phone number 654-821-489 explicitly marked as a preferred contact method through a CELL/VOICE designation. The contact includes geospatial coordinates (40.422701,-3.877891) representing a home address in Madrid, Spain (derived from latitude/longitude conversion), marked as preferred in the address metadata. The presence of identical phone numbers across mobile and extraPhoneNumber fields suggests this is a consolidated contact entry. The inclusion of precise geographic coordinates rather than a street address indicates potential integration with mapping services or location-sharing features. As this contact card was found in the user's data repository, it implies Pauline is part of the user's personal or professional network, potentially representing a friend, family member, or acquaintance. The record's persistence in the system suggests ongoing relevance to the user's communication patterns or relationship management."
+            },
+            {
                 "name": "Salomé",
                 "score": 0.6821067333221436,
-                "frequency": 2,
+                "frequency": 3,
                 "document_id": [
                     "part-00125-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-09-18T20:16:17Z",
                     "D1320C79-28F8-4B69-A813-6946D0DA492C",
@@ -414,7 +450,7 @@
             {
                 "name": "Georgina",
                 "score": 0.681135892868042,
-                "frequency": 2,
+                "frequency": 3,
                 "document_id": [
                     "B3A6EE7B-44CC-5921-B6B6-A8642678F25D",
                     "D668CD77-0DA8-497B-98B6-11A9AD208EF2",
@@ -423,41 +459,9 @@
                 "summary": "This is an SMS message sent to the user's phone number +34678057952 (a Spanish number) on 26 December 2024 at 11:30:47 UTC. The message body 'Como si es a Georgina' (translated: 'As if it's to Georgina') suggests communication directed toward or referencing an individual named Georgina, implying a personal relationship or connection. The SMS was part of chat thread ID 17, indicating ongoing conversations in this channel. The future timestamp could imply planned communication or a scheduled event involving Georgina. This document reinforces the user's ownership of the Spanish phone number and their international connections."
             },
             {
-                "name": "Mariano África",
-                "score": 0.7510459423065186,
-                "frequency": 1,
-                "document_id": [
-                    "part-00043-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2021-07-22T00:08:23Z",
-                    "part-00068-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-11T05:23:50Z",
-                    "part-00211-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-09T00:26:39Z"
-                ],
-                "summary": "This is a Facebook notification email sent to the user, Hortense Michael (walter69@gmail.com), on 2013-01-09T00:26:39Z. The email confirms that Mariano África (also referred to as Mariano Cuesta in the body) accepted the user’s friend request on Facebook, establishing a direct social connection between them. The document includes the user’s physical address: Plaza Piedad Neira 59 Apt. 34, which may indicate their residence or a location associated with their account. Metadata reveals the email was sent from a Facebook notification system (\"Georges\" <notification+zj4yaf4a=marie80@yahoo.com>) to the user’s primary email. The body contains profile links for Mariano Cuesta, friend suggestion features, and an unsubscribe option for future notifications. A profile image URL (http://profile.ak.fbcdn.net/hprofile-ak-ash4/371751_100003217264302_1172523607_q.jpg) is embedded, likely depicting Mariano Cuesta. The email includes tracking pixels (http://www.facebook.com/email_open_log_pic.php?c=518522&mid=75726eaG5af43a29fe5cG3cdc7G1b) for monitoring engagement. The user’s email walter69@gmail.com is explicitly confirmed as the recipient, and references to alejandritaduran5@gmail.com in URL parameters suggest potential secondary associations or system-level identifiers. The document underscores the user’s active Facebook account, social interactions, and provision of personal data (email, address) to the platform."
-            },
-            {
-                "name": "Dave Eulalia",
-                "score": 0.7458682060241699,
-                "frequency": 1,
-                "document_id": [
-                    "part-00168-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-12T18:58:29Z",
-                    "part-00231-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-14T20:10:49Z",
-                    "part-00151-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2014-06-16T15:06:47Z",
-                    "part-00198-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-16T16:35:14Z"
-                ],
-                "summary": "This document is an email notification from Facebook sent to the user, identified as Hortense Michael with the email address walter69@gmail.com, on January 16, 2013. The email alerted Hortense to pending Facebook activity, including 8 friend requests, 1 unread message, and 3 notifications. It listed friends and connections such as Estela Felipe, Pablo Martínez Brian Villa, Dave Eulalia, and 4 others who had posted updates, statuses, and photos. Specific interactions highlighted included comments by Francisca Alexandra on her own status and Pablo Martínez Brian Villa commenting on his own status. The email contained multiple hyperlinks to Facebook profiles, posts, and notification settings, along with profile images linked to accounts like BoneWarmachine, PabloMdeVilla, and ladygrotesca. The email was sent from \"Georges\" via a Yahoo address (update+zj4yaf4a=marie80@yahoo.com) and included an unsubscribe link and a physical address in the footer: Plaza Piedad Neira 59 Apt. 34, which may relate to account metadata. The document reveals the user’s active Facebook presence, social connections, and engagement with platform notifications, as well as their use of the email alias walter69@gmail.com."
-            },
-            {
-                "name": "Darío Victor manuel Victor manuel",
-                "score": 0.7357616424560547,
-                "frequency": 1,
-                "document_id": [
-                    "part-00032-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-16T15:48:47Z"
-                ],
-                "summary": "This is an email notification from Facebook, sent on 2013-01-16 at 15:48:47 UTC, regarding a friend request. The email was sent to the user's Yahoo email address (darcyneylon@yahoo.com), suggesting this is a primary or secondary contact method for the user. The recipient is addressed as \"Hortense Michael\" in the 'to' field (walter69@gmail.com), though the footer indicates delivery to darcyneylon@yahoo.com, implying potential account aliases or forwarding behavior. The email contains a friend request from Darío Victor Manuel Victor Manuel, who attended Universidad Complutense de Madrid and has 175 Facebook friends, 59 photos, and 9 group memberships, indicating active social engagement. The user's physical address is listed as Plaza Piedad Neira 59 Apt. 34, potentially revealing their residential location. The email structure includes standard Facebook notification elements: confirmation links, unsubscribe options, and tracking pixels. The presence of Spanish-language content (\"Confirmar la solicitud\", \"Este mensaje se envió\") and Madrid-based education context suggests possible Spanish-language proficiency or geographic ties. The email originated from a Yahoo address (notification+zj4yaf4a=marie80@yahoo.com) using Facebook's notification system, demonstrating third-party email service usage patterns. Repeated identifiers like mid=761398bG5af43a29fe5cG75fafG2 and bcode=1.1358380127.AbnBAT73Eg9Fhyyx suggest tracking mechanisms in Facebook's communication infrastructure."
-            },
-            {
                 "name": "Francisca Sánchez",
                 "score": 0.7346591949462891,
-                "frequency": 1,
+                "frequency": 2,
                 "document_id": [
                     "part-00168-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-12T18:58:29Z",
                     "part-00231-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-14T20:10:49Z"
@@ -467,7 +471,7 @@
             {
                 "name": "Benjamín",
                 "score": 0.7308015823364258,
-                "frequency": 1,
+                "frequency": 2,
                 "document_id": [
                     "2FF25705-EFCE-4694-882A-51F608F0D787",
                     "3EA9D202-0AEE-4286-8A1C-8B50992B318F"
@@ -477,7 +481,7 @@
             {
                 "name": "Isidora Célina Marcela",
                 "score": 0.7198629379272461,
-                "frequency": 1,
+                "frequency": 2,
                 "document_id": [
                     "part-00108-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-02-24T16:53:12Z",
                     "72DBE2C2-6269-4BF1-A1B3-5316E09D5718"
@@ -485,102 +489,16 @@
                 "summary": "This is a mobile SMS message sent to the user's phone number +34678057952 (Spanish country code +34) on 21 December 2024 at 10:51:54 UTC. The message body 'Le quiero mucho Isidora' (Spanish for 'I love you very much Isidora') indicates a close personal relationship between the user and someone named Isidora, potentially family, romantic partner, or close friend. The message was part of chat thread ID 17. The use of Spanish language suggests the user may be Spanish-speaking or have connections to Spanish-speaking regions. The presence of this SMS in the user's records implies active communication patterns and emotional bonds with Isidora as a significant entity in their social graph."
             },
             {
-                "name": "Nidia Lucio Juliana",
-                "score": 0.7196567058563232,
-                "frequency": 1,
-                "document_id": [
-                    "part-00141-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2014-06-21T11:02:32Z"
-                ],
-                "summary": "This is a Facebook notification email sent to the user, identified as Hortense Michael with the email address walter69@gmail.com, on 21 June 2014. The email reminded the user about upcoming birthdays of Cindy Eutropio (30 June) and Nidia Lucio Juliana (28 June 2014), encouraging them to write on their Facebook biographies. The message included profile pictures of both Cindy and Nidia, with links to their Facebook profiles, suggesting these individuals are part of the user's social network. The email originated from a Yahoo address (notification+zj4yaf4a=marie80@yahoo.com) and contained unsubscribe links. A physical address (Plaza Piedad Neira 59 Apt. 34) was embedded in the footer, potentially associated with the user's account or Facebook's regional operations. The email's Spanish language and date formats imply the user interacts with Facebook in Spanish, possibly indicating linguistic or regional preferences. The repeated birthday reminders and emphasis on bio updates highlight the user's active Facebook presence and social connections. Metadata includes embedded tracking pixels and multiple redundant links for Facebook navigation and event planning."
-            },
-            {
                 "name": "Cindy Eutropio",
                 "score": 0.7196567058563232,
-                "frequency": 1,
+                "frequency": 2,
                 "document_id": [
                     "part-00040-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2013-01-15T12:34:52Z",
                     "part-00141-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2014-06-21T11:02:32Z"
                 ],
                 "summary": "This is a Facebook notification email sent to the user, identified as Hortense Michael with the email address walter69@gmail.com, on 21 June 2014. The email reminded the user about upcoming birthdays of Cindy Eutropio (30 June) and Nidia Lucio Juliana (28 June 2014), encouraging them to write on their Facebook biographies. The message included profile pictures of both Cindy and Nidia, with links to their Facebook profiles, suggesting these individuals are part of the user's social network. The email originated from a Yahoo address (notification+zj4yaf4a=marie80@yahoo.com) and contained unsubscribe links. A physical address (Plaza Piedad Neira 59 Apt. 34) was embedded in the footer, potentially associated with the user's account or Facebook's regional operations. The email's Spanish language and date formats imply the user interacts with Facebook in Spanish, possibly indicating linguistic or regional preferences. The repeated birthday reminders and emphasis on bio updates highlight the user's active Facebook presence and social connections. Metadata includes embedded tracking pixels and multiple redundant links for Facebook navigation and event planning."
-            },
-            {
-                "name": "Maria Jerome",
-                "score": 0.7181198596954346,
-                "frequency": 1,
-                "document_id": [
-                    "Maria Jerome 💜 + 654-881-297"
-                ],
-                "summary": "This is a contact card entry for an individual named Maria Jerome, denoted with a heart emoji (💜) in both her full name and nickname fields, suggesting a close personal relationship with the user. The contact includes a mobile phone number (654-881-297), which is listed twice: once as the primary mobile number and again under 'extraPhoneNumber' with a type designation of 'CELL;VOICE;pref', indicating it is her preferred voice contact method. The presence of this contact in the user's data implies the user has direct communication with Maria Jerome, likely a personal acquaintance, family member, or romantic partner given the heart symbol. The lack of additional metadata (e.g., email, address, or creation date) limits further insights, but the repeated phone number and emoji usage underscore her significance in the user's network."
-            },
-            {
-                "name": "Heraclio",
-                "score": 0.7176544666290283,
-                "frequency": 1,
-                "document_id": [
-                    "648D4B53-AE42-4C12-89B0-5D5990C84643",
-                    "AB6DF9DC-5073-45AA-BCDC-F560C118A439"
-                ],
-                "summary": "This is an SMS message sent to the user's phone number +34699323960 on 2024-11-16 at 18:32:09 UTC. The user communicated in Spanish, indicating potential Spanish-language proficiency or cultural ties. They referenced adjusting plans to sleep in Vallecas (a district in Madrid, Spain, suggesting geographic ties to the area) and organizing lunch the following day with an individual named Heraclio due to others being unavailable, implying a social relationship with Heraclio. The message highlights last-minute scheduling changes, potential social isolation ('nadie quedaba' / 'no one was left'), and the user's proactive reorganization of plans. The interaction occurred via SMS, indicating the use of mobile communication for personal coordination. Metadata includes the chat ID '69' and document ID 'AB6DF9DC-5073-45AA-BCDC-F560C118A439', though these are structural identifiers with limited semantic value for user profiling."
-            },
-            {
-                "name": "Jose 🐶🐶",
-                "score": 0.7057850360870361,
-                "frequency": 1,
-                "document_id": [
-                    "Jose 🐶🐶 + 656 366 722"
-                ],
-                "summary": "This is a contact card entry for an individual named 'Jose 🐶🐶', stored in the user's contact list. The contact's full name and nickname are identical, suggesting the emojis (two dog faces) are an intentional part of their identifier, potentially indicating a personal or informal relationship with the user. The contact's primary mobile number is 656 366 722, which is listed both as a standalone field and within an 'extraPhoneNumber' array categorized as a preferred cellular voice number. The inclusion of the phone number in the contact's ID field ('Jose 🐶🐶 + 656 366 722') reinforces its importance as a key identifier. The source filename ('part-00163-...') suggests this contact is part of a larger dataset or backup. The absence of additional metadata (e.g., email, address, organization) implies the user primarily associates this contact with voice communication via mobile. The emoji usage could suggest the contact has pets (dogs) or that dogs are a shared interest between the contact and the user, potentially indicating a social or recreational connection."
-            },
-            {
-                "name": "Jacinto",
-                "score": 0.7052409648895264,
-                "frequency": 1,
-                "document_id": [
-                    "part-00045-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-10-18T19:01:51Z",
-                    "BB02083F-E017-E402-E6B6-5A7237119D83",
-                    "7132208A-5EDB-4D83-9EB3-4BBEA27C8225"
-                ],
-                "summary": "This is an SMS message sent by the user to a contact named Jacinto on December 26, 2024, at 09:44:16 UTC. The message, written in Spanish, inquired about Jacinto's well-being and that of his family ('Jacinto cómo te encuentras y cómo está tu familia'), suggesting a personal relationship and ongoing communication. The SMS was sent to the phone number +34699323960, which is inferred to belong to Jacinto. The user's act of initiating this conversation implies familiarity and concern for Jacinto's personal life, potentially indicating a familial or close friendship bond. Metadata includes the document's internal ID (7132208A-5EDB-4D83-9EB3-4BBEA27C8225), chat thread ID (69), and the precise timestamp, providing provenance details about this communication event. The use of informal Spanish and the direct reference to family matters further contextualizes the user's linguistic preferences and relational network."
-            },
-            {
-                "name": "Jerome Paz Rufino",
-                "score": 0.7029342651367188,
-                "frequency": 1,
-                "document_id": [
-                    "Jerome Paz Rufino + 242"
-                ],
-                "summary": "This is a contact card entry for an individual named Jerome Paz Rufino, saved in the user's contacts. The contact is listed with the full name \"Jerome Paz Rufino\" and an identical nickname, suggesting no alternative moniker was provided. The contact's primary mobile phone number is recorded as \"242\", with an additional phone number entry categorised as a preferred cellular voice contact (CELL;VOICE;pref), also numbered \"242\" – indicating potential duplication or emphasis on this number as a primary contact method. The structured ID field \"Jerome Paz Rufino + 242\" reinforces the association between the name and phone number. The presence of this contact in the user's records implies a personal or professional connection, though the nature of the relationship (e.g., colleague, friend, service provider) is not explicitly stated. The minimalistic contact details suggest the user may have acquired or stored this information for basic communication purposes, with no evident email addresses, addresses, or organisational affiliations documented in this entry."
-            },
-            {
-                "name": "Amy",
-                "score": 0.7021355628967285,
-                "frequency": 1,
-                "document_id": [
-                    "part-00045-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2018-10-18T19:01:51Z",
-                    "C75950EA-FF87-46D0-ADE7-B4EAC6D9E6DA"
-                ],
-                "summary": "This is an SMS message sent by the user to a contact named Amy on 2024-12-12 at 07:32:54 UTC. The message body 'Amy. Cómo estás?' (Spanish for 'Amy. How are you?') indicates casual communication in Spanish, suggesting either the user or Amy has Spanish language familiarity. The SMS was sent to the user's verified phone number +34699323960, establishing this as the user's contact number. The interaction implies an existing personal relationship between the user and Amy, likely friendship or familial connection given the informal tone. The chatId '69' provides contextual grouping metadata for this conversation thread within the messaging system."
-            },
-            {
-                "name": "Cebrián",
-                "score": 0.7016963958740234,
-                "frequency": 1,
-                "document_id": [
-                    "D489AD42-414F-4A2E-883A-F92A5D524038"
-                ],
-                "summary": "This is a mobile SMS document sent from the phone number +34678057952, which belongs to the user based on the message's origin. The SMS was sent on 26 December 2024 at 11:09:18 UTC and was part of chat thread ID 17. The message body, written in Spanish, states: 'Estuve haciendo el anormal con Cebrián y llantas' ('I was acting crazy with Cebrián and tires'). This indicates the user engaged in playful or unconventional behavior with an individual named Cebrián, potentially a friend or acquaintance, in a context involving tires. The mention of 'llantas' (tires) suggests possible automotive-related activities, hobbies, or metaphorical references to wheel-based recreation. The interaction occurred prior to the message timestamp and implies a social relationship between the user and Cebrián. No recipients or additional participants are explicitly listed, but the focus on collaborative mischief highlights casual interpersonal dynamics. The document provides insights into the user's Spanish-language communication patterns, social connections, and potential interests in automotive or physical activities involving tires."
-            },
-            {
-                "name": "Crystal y Ciríaco",
-                "score": 0.7004058361053467,
-                "frequency": 1,
-                "document_id": [
-                    "part-00106-48e02c74-5ef7-4597-99b8-43bbffb58f26-c000.txt_2020-07-21T18:52:22Z",
-                    "EFF3596D-8DB4-48FC-ACBC-04E38D764A91"
-                ],
-                "summary": "This is an SMS message sent to the user's phone number +34644523876 on 26 December 2024 at 12:55:57 UTC. The message body states 'Ciríaco a intentar llegar hoy' (translated as 'Ciríaco will try to arrive today'), indicating plans involving an individual named Ciríaco on that date. The communication suggests a personal relationship between the user and Ciríaco, potentially relating to travel coordination or social arrangements. The SMS metadata confirms the user's ownership of the Spanish mobile number +34644523876 and preserves the exact timestamp of this communication event. The use of informal language and direct messaging format implies this is part of routine personal correspondence in the user's social network."
             }
         ],
-        "extracted relationships": ":FRIEND_OF|RELATIONSHIP_WITH"
+        "extracted relationships": ""
     }
 ]
