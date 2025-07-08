@@ -275,7 +275,7 @@ def main(question: str, match_statment: str = None, k: int = 30, save_json: bool
         RETURN matchedNode.name AS name, score,  
                matchedNode.extraction_result_summary AS summary, matchedNode.document_id AS document_id, 
                frequency, sigmoid_frequency, relation_type, entity_type
-        ORDER BY 0.3 * sigmoid_frequency +  0.7 * score DESC 
+        ORDER BY 0.3 * sigmoid_frequency + 0.7 * score DESC 
         LIMIT $limit
         """
 
