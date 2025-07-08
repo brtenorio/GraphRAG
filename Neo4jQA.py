@@ -257,6 +257,7 @@ def main(question: str, match_statment: str = None, k: int = 30, save_json: bool
     cypher_query = f"""
         // Step 1: Get entities with degree >= 2 
         MATCH (e:Entity)
+        SET e.sigmoid_frequency = 1 / (1 + exp(-e.frequency))
         WITH e, size([(e)--() | 1]) AS degree
         WHERE degree >= 2
         WITH collect(e) AS well_connected_entities
@@ -265,14 +266,16 @@ def main(question: str, match_statment: str = None, k: int = 30, save_json: bool
         MATCH (:USER)-[r{match_relation}]->(e{match_entity})
         WHERE e IN well_connected_entities
 
-        WITH type(r) AS relation_type, e.frequency as frequency, labels(e) AS entity_type, collect(e) AS matchedNodes, $queryEmbedding AS queryEmbedding
+        WITH type(r) AS relation_type, e.frequency as frequency, labels(e) AS entity_type, collect(e) AS matchedNodes, 
+        e.sigmoid_frequency AS sigmoid_frequency, $queryEmbedding AS queryEmbedding
         ORDER BY frequency DESC
               CALL db.index.vector.queryNodes('entity_embedding', 1000, queryEmbedding)
               YIELD node AS matchedNode, score
         WHERE matchedNode IN matchedNodes AND score > 0.68
-        RETURN matchedNode.name AS name, score, 
-               matchedNode.extraction_result_summary AS summary, matchedNode.document_id AS document_id, frequency, relation_type, entity_type
-        ORDER BY frequency * score DESC 
+        RETURN matchedNode.name AS name, score,  
+               matchedNode.extraction_result_summary AS summary, matchedNode.document_id AS document_id, 
+               frequency, sigmoid_frequency, relation_type, entity_type
+        ORDER BY 0.3 * sigmoid_frequency +  0.7 * score DESC 
         LIMIT $limit
         """
 
